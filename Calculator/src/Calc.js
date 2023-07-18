@@ -10,7 +10,10 @@ export default function Calc(){
     }
 
     return(
-        <div>
+            <div>
+                <center>
+        <div id='cal'>
+             <h1 id='raj'>calculater</h1>
         <center>
         <input type="text" value={input} name="input" onChange={handle}/> 
         <br/>
@@ -35,6 +38,8 @@ export default function Calc(){
         <button onClick={() => setinput (input +'/')}>/</button>
         <button onClick={() => setinput ('')}>clr</button> <br/>
 
+        </center>
+        </div>
         </center>
         </div>
     )
